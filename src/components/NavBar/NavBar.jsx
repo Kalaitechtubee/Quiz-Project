@@ -10,7 +10,7 @@ import {
   Stack,
   Text,
 } from '@chakra-ui/react';
-import { HamburgerIcon, CloseIcon, InfoIcon } from '@chakra-ui/icons';
+import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import logo from './../../Assets/logo.png';
 import { Link as ReachLink } from 'react-router-dom';
 import { FaHome } from 'react-icons/fa'; // Import the FaHome icon from react-icons/fa
@@ -53,18 +53,6 @@ export default function BetterNavbar() {
                   <Text fontWeight="bold">Home</Text>
                 </HStack>
               </ReachLink>
-              <ReachLink
-                px={2}
-                py={1}
-                rounded="md"
-                _hover={{ textDecoration: 'none' }}
-                to="/about"
-              >
-                <HStack>
-                  <InfoIcon />
-                  <Text fontWeight="bold">About</Text>
-                </HStack>
-              </ReachLink>
             </HStack>
           </HStack>
         </Flex>
@@ -82,18 +70,6 @@ export default function BetterNavbar() {
                 <HStack>
                   <FaHome /> {/* Use the FaHome icon */}
                   <Text fontWeight="bold">Home</Text>
-                </HStack>
-              </ReachLink>
-              <ReachLink
-                px={2}
-                py={1}
-                rounded="md"
-                _hover={{ textDecoration: 'none' }}
-                to="/about"
-              >
-                <HStack>
-                  <InfoIcon />
-                  <Text fontWeight="bold">About</Text>
                 </HStack>
               </ReachLink>
             </Stack>
