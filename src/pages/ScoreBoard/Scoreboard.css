@@ -147,21 +147,3 @@
     justify-content: center;
     margin: 10px;
 }
-.user-name-input {
-    margin: 20px 0;
-    text-align: center;
-}
-
-.user-name-input input {
-    padding: 10px;
-    font-size: 16px;
-    border: 2px solid #4CAF50; /* Green border */
-    border-radius: 5px;
-    width: 250px;
-    outline: none;
-    transition: border-color 0.3s ease;
-}
-
-.user-name-input input:focus {
-    border-color: #45a049; /* Darker green on focus */
-}

@@ -278,7 +278,7 @@ const Scoreboard = (props) => {
                 </div>
 
                 {/* Participant's Name Input */}
-                <div className="user-name-input">
+                <div className="user-name-input text-black">
                     <input
                         type="text"
                         placeholder="Enter your name"
