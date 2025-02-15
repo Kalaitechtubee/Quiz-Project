@@ -2,6 +2,7 @@ import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import QuizState from './context/QuizState';
 import Home from './pages/Home/Home';
+import Login from './pages/Login';
 import {
   Routes,
   Route
@@ -17,7 +18,8 @@ function App() {
         <div className="App">
           <NavBar />
           <Routes>
-            <Route exact path="/" element={<Home />} />
+          <Route path="/" element={<Login />} />
+            <Route exact path="/Home" element={<Home />} />
             <Route exact path="/review" element={<ReviewAnswer />} />
           </Routes>
         </div>

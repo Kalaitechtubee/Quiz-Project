@@ -109,3 +109,59 @@
 .footer-text {
     font-size: 11px;
 }
+
+
+.user-name-input {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.user-name-input input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.home-btn {
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+}
+.home-btn.download-btn {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.user-name-input {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.user-name-input input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #4CAF50; /* Green border */
+    border-radius: 5px;
+    width: 250px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.user-name-input input:focus {
+    border-color: #45a049; /* Darker green on focus */
+}
